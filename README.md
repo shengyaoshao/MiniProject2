@@ -9,12 +9,14 @@ http://wiki.ros.org/ROS/Introduction Basic introduction of ROS form the ROS offi
 ## Analysis of the ROS-based Autonomous Navigation Wheelchair
 The ROS-based Autonomous Navigation Wheelchair consists of hardware and software. For the hardwares, they chose the Bora wheelchair model which was electric powered and had an embedded system that can communicate with other systems. they also used the GPSB board to control the wheelchair's directions and speed. An Omnidirectional Camera was mounted on top of the wheelchair to provide vision data for the system to configure the surroundings, distance as well as obstacles in almost 360 degrees. Multiple sensors were placed on the wheelchair to detect the surroundings as a supplement to the Omni directional camera.\
 The research group had two main algorithm, the vision based localization algorithm and collision avoidance algorithm. The vision based localization algorithm consisted of camera calibartion, features detection and correspndence, and essential matrix and 3D trangulation. The collision avoidance algorithm fuses data from the US/IR platform to detect and avoid obstacles on the way.\\
-For the use of ROS, there are pros and cons\
+For the use of ROS, there are pros and cons
 Pros:\
-1. 
-2. 
-3. 
+1. ROS supports many languages like python and C++\
+2. ROS is open-source which means there are many exsisting resources to use\
+3. Easy integration of different tools\
 Cons:\
+1. There are two versions of ROS, ROS1 and ROS2, some software may not support both.
+2. ROS can only be used on a limited numbers of OS.\
 ## Recommendations
 ## Conclusion
-ROS has its advantages and disadvantages, but overall, it is 
+ROS has its advantages and disadvantages, but overall, it is great for robot projects. 
