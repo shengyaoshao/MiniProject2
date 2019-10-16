@@ -16,7 +16,7 @@ For the use of ROS, there are pros and cons
 Pros:
 1. ROS supports many languages like python and C++
 2. ROS is open-source which means there are many exsisting resources to use
-3. Easy integration of different tools
+3. Easy integration of different tools\
 Cons:
 1. There are two versions of ROS, ROS1 and ROS2, some software may not support both.
 2. ROS can only be used on a limited numbers of OS.
