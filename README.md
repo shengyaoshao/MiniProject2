@@ -12,14 +12,17 @@ The ROS-based Autonomous Navigation Wheelchair consists of hardware and software
 \
 The research group had two main algorithm, the vision based localization algorithm and collision avoidance algorithm. The vision based localization algorithm consisted of camera calibartion, features detection and correspndence, and essential matrix and 3D trangulation. The collision avoidance algorithm fuses data from the US/IR platform to detect and avoid obstacles on the way.\
 \
-For the use of ROS, there are pros and cons
+For the use of ROS, there are pros and cons\
+\
 Pros:
 1. ROS supports many languages like python and C++
 2. ROS is open-source which means there are many exsisting resources to use
-3. Easy integration of different tools\
+3. Easy integration of different tools
+\
 Cons:
 1. There are two versions of ROS, ROS1 and ROS2, some software may not support both.
 2. ROS can only be used on a limited numbers of OS.
 ## Recommendations
+I highly recommend using ROS for robot projects. There are a lot of tools and libraries to realize the goals of the autonomous wheelchair project. And the report about the autonomous from International Journal of COmpter Applications could also be a guidence for this project.
 ## Conclusion
-ROS has its advantages and disadvantages, but overall, it is great for robot projects. 
+ROS has its advantages and disadvantages, but the advantages greatly weigh over the disadvantages. It has a collaborative and informative community, it supports many languages so the developers can choose whichever the language that suits their projects best. The massive libraries and tools give the developers opportunities to explore better solutions to their problems and more angles to view their projects.
