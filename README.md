@@ -13,13 +13,13 @@ The ROS-based Autonomous Navigation Wheelchair consists of hardware and software
 The research group had two main algorithm, the vision based localization algorithm and collision avoidance algorithm. The vision based localization algorithm consisted of camera calibartion, features detection and correspndence, and essential matrix and 3D trangulation. The collision avoidance algorithm fuses data from the US/IR platform to detect and avoid obstacles on the way.\
 \
 The result of the project is mixed, error when the wheelchair is moving on a straight line is fairly small, only -0.18 m on x-axis and 0.2 m on the y-axis. However, when the path is more complex and 'z-like', the error on x-axis goes up to -0.36 m and -0.6 m on the y-axis. This result shows that the complexity of the path directly influences the accuracy of the algorithm and there are still room for improvements. \
-For the use of ROS, there are pros and cons\
+## Pros and cons of ROS\
 \
 Pros:
 1. ROS supports many languages like python and C++
 2. ROS is open-source which means there are many exsisting resources to use
 3. Easy integration of different tools
-\
+ \
 Cons:
 1. There are two versions of ROS, ROS1 and ROS2, some software may not support both.
 2. ROS can only be used on a limited numbers of OS.
