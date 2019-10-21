@@ -12,6 +12,7 @@ The ROS-based Autonomous Navigation Wheelchair consists of hardware and software
 \
 The research group had two main algorithm, the vision based localization algorithm and collision avoidance algorithm. The vision based localization algorithm consisted of camera calibartion, features detection and correspndence, and essential matrix and 3D trangulation. The collision avoidance algorithm fuses data from the US/IR platform to detect and avoid obstacles on the way.\
 \
+The result of the project is mixed, error when the wheelchair is moving on a straight line is fairly small, only -0.18 m on x-axis and 0.2 m on the y-axis. However, when the path is more complex and 'z-like', the error on x-axis goes up to -0.36 m and -0.6 m on the y-axis. This result shows that the complexity of the path directly influences the accuracy of the algorithm and there are still room for improvements.
 For the use of ROS, there are pros and cons\
 \
 Pros:
@@ -25,7 +26,7 @@ Cons:
 ## Recommendations
 I highly recommend using ROS for robot projects. There are a lot of tools and libraries to realize the goals of the autonomous wheelchair project. And the report about the autonomous from International Journal of COmpter Applications could also be a guidence for this project.
 ## Conclusion
-ROS has its advantages and disadvantages, but the advantages greatly weigh over the disadvantages. It has a collaborative and informative community, it supports many languages so the developers can choose whichever the language that suits their projects best. The massive libraries and tools give the developers opportunities to explore better solutions to their problems and more angles to view their projects.
+ROS has its advantages and disadvantages, but the advantages greatly weigh over the disadvantages. It has a collaborative and informative community, it supports many languages so the developers can choose whichever the language that suits their projects best. The massive libraries and tools give the developers opportunities to explore better solutions to their problems and more angles to view their projects. As a result, researchers should be able to build a self-driving wheel chair based on ROS.
 
 ### Team Paper Reviews
 
